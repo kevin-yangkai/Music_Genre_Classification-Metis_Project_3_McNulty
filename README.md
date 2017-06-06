@@ -1,0 +1,2 @@
+# Music_Genre_Classification-Metis_Project_3_McNulty
+Supervised learning project for Metis
