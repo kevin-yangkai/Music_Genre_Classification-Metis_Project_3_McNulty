@@ -1,5 +1,5 @@
 ## Music Genre Classification with Supervised Learning
-###Background:
+### Background:
 I DJ on the side for fun and one of the tasks that I have to do regularly is go through the tons of tracks that I accumulate and annote them with descriptor tags.  I do this for two main reasons.  First, I have a ton of tracks in my digital library.  I often come across a track that I cannot remember of the top of my head and it is very convenient to have an idea of the genre, the general mood of the track, and if there are any vocals on the track.  Second, if I want to play a series of tracks that follow a specific mood, it is great to be able to sort my library based on mood descriptor tags as well.
 
 So when I begin to sort tracks the first things I do is categorize the tracks by genre and sub-genre. Thus the crux of this project.  In the end, it would be great to have a folder on my hard drive full of tracks of various genres of electronic music.  I would want to carry out two or three rounds of classification on the tracks.  The first pass would be to seperate them into different folders based on predicted genre and the second pass would then look at those folders and further seperate them into sub-genres. If I can achieve high accuracy, then I can then import the tracks into my library and fix the errors on the fly as I encounter them!!  Later, it would be great to include further descriptors such as the presence of vocals.
@@ -71,7 +71,7 @@ Precision:              0.89
 Recall:                 0.89  
 F1 Score:                 0.89  
 
-sub-genre: 3 group classification  
+**sub-genre: 3 group classification**  
 **knn:** accuracy 0.71  
 
 **LogReg model using L1 regularization**  
