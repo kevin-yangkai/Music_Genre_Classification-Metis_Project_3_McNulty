@@ -10,46 +10,46 @@ For this project I did not go crazy and scan thousands of tracks for training or
 
 I used various supervised learning algorithms in this project, but it is not exhaustive and many of the boosted algorithms should be explored still.  Here you will see implementation of: K nearest neighbor (KNN), Logistic Regression with regularization, both Gaussian GNB) and Bernoulli Naive Bayes (BNB), both linear and non-linear Singular vector machines (SVM), Decision trees, and Random Forrests.
 
-### Results:
-**genre: 4 group classification**
+### Results:  
+**genre: 4 group classification**  
 **knn:** accuracy 0.67  
 
-**LogReg model using L1 regularization**
+**LogReg model using L1 regularization**  
 Training Data Accuracy: 0.85  
 Test Data Accuracy:     0.66  
 Precision:              1.00  
 Recall:                 0.89  
 F1 Score:                 0.94  
 
-**LogReg model using L2 regularization**
+**LogReg model using L2 regularization**  
 Training Data Accuracy: 0.92  
 Test Data Accuracy:     0.63  
 Precision:              0.94  
 Recall:                 0.89  
 F1 Score:                 0.91  
 
-**GaussianNB**
+**GaussianNB**  
 Training Data Accuracy: 0.67  
 Test Data Accuracy:     0.58  
 Precision:              0.75  
 Recall:                 0.95  
 F1 Score:                 0.84  
 
-**BernoulliNB**
+**BernoulliNB**  
 Training Data Accuracy: 0.60  
 Test Data Accuracy:     0.58  
 Precision:              0.74  
 Recall:                 0.94  
 F1 Score:                 0.83  
 
-**Linear SVC**
+**Linear SVC**  
 Training Data Accuracy: 1.00  
 Test Data Accuracy:     0.72  
 Precision:              0.94  
 Recall:                 0.84  
 F1 Score:                 0.89  
 
-**SVC (linear and non-linear)**
+**SVC (linear and non-linear)**  
 Best parameters:
  {'C': 10.0, 'kernel': 'rbf'} SVC(C=10.0, cache_size=200, class_weight=None, coef0=0.0,  
   decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',  
@@ -57,52 +57,52 @@ Best parameters:
   tol=0.001, verbose=False)  
 accuracy: 0.71  
 
-**Decision Tree Classifier**
+**Decision Tree Classifier**  
 Training Data Accuracy: 1.00  
 Test Data Accuracy:     0.54  
 Precision:              0.88  
 Recall:                 0.93  
 F1 Score:                 0.90  
 
-**Random Forrest Classifier**
+**Random Forrest Classifier**  
 Training Data Accuracy: 0.97  
 Test Data Accuracy:     0.59  
 Precision:              0.89  
 Recall:                 0.89  
 F1 Score:                 0.89  
 
-sub-genre: 3 group classification
+sub-genre: 3 group classification  
 **knn:** accuracy 0.71  
 
-**LogReg model using L1 regularization**
+**LogReg model using L1 regularization**  
 Training Data Accuracy: 0.64  
 Test Data Accuracy:     0.59  
 Precision:              0.93  
 Recall:                 0.67  
 F1 Score:                 0.78  
 
-**LogReg model using L2 regularization**
+**LogReg model using L2 regularization**  
 Training Data Accuracy: 0.82  
 Test Data Accuracy:     0.67  
 Precision:              0.84  
 Recall:                 0.64  
 F1 Score:                 0.73  
 
-**GaussianNB**
+**GaussianNB**  
 Training Data Accuracy: 0.59  
 Test Data Accuracy:     0.58  
 Precision:              0.89  
 Recall:                 0.81  
 F1 Score:                 0.85  
 
-**BernoulliNB**
+**BernoulliNB**  
 Training Data Accuracy: 0.62  
 Test Data Accuracy:     0.59  
 Precision:              0.76  
 Recall:                 0.79  
 F1 Score:                 0.78  
 
-**SVC (linear and non-linear)**
+**SVC (linear and non-linear)**  
 Best parameters:  
  {'C': 1.0, 'kernel': 'rbf'} SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,  
   decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',  
@@ -110,14 +110,14 @@ Best parameters:
   tol=0.001, verbose=False)  
 accuracy: 0.65  
 
-**Decision Tree Classifier**
+**Decision Tree Classifier**  
 Training Data Accuracy: 1.00  
 Test Data Accuracy:     0.62  
 Precision:              0.81  
 Recall:                 0.74  
 F1 Score:                 0.77  
 
-**Random Tree Classifier**
+**Random Tree Classifier**  
 Training Data Accuracy: 0.97  
 Test Data Accuracy:     0.55  
 Precision:              0.73  
