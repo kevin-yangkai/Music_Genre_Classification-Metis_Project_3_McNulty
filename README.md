@@ -138,6 +138,11 @@ F1 Score:                 0.58
 2. scipy
 3. numpy
 4. matplotlib (also requires installation of python3-tk. On linux box: apt-get install python3-tk) 
+5. pandas
+6. pickle
+7. sklearn
+8. itertools
+9. seaborn
 
 ### Still to do
 1. OPTIMIZATION!!!  Right now the model is a bit bloated and can be slimmed down and streamlined.  I need to go through my feature set and remove those features that are contrubuting little or no useful information.
